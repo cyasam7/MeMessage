@@ -14,7 +14,7 @@ const client = new WhatsAppWeb();
 (async () => {
   const authJSON = JSON.parse(fs.readFileSync(__dirname + "/auth.json"));
   await client.connectSlim(authJSON);
-  cron.schedule("* * * * * *", () => {
+  cron.schedule("* 30 8 * * *", () => {
     const [mensaje, index] = ServicesMessage.getMessage();
     const cancion = ServicesCanciones.regresarEnlaceDeCancion(index);
     const mensajeCompleto = `${mensaje} \n${cancion}`;
