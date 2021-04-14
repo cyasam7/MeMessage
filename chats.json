@@ -1,0 +1,4 @@
+[
+  ["response", { "type": "contacts", "duplicate": "true" }, null],
+  ["query", { "epoch": "4", "type": "contacts" }, null]
+]
