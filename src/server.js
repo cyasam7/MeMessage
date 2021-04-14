@@ -14,11 +14,11 @@ const client = new WhatsAppWeb();
 (async () => {
   const authJSON = JSON.parse(fs.readFileSync(__dirname + "/auth.json"));
   await client.connectSlim(authJSON);
-  cron.schedule("* 30 9 * * *", () => {
-    
-    const cancion = ServicesCanciones.regresarEnlaceDeCancion()
-    const mensaje = ServicesMessage.getMessage()
-    const mensajeCompleto = `${mensaje} \n${cancion}`
+  cron.schedule("* * * * * *", () => {
+    const [mensaje, index] = ServicesMessage.getMessage();
+    const cancion = ServicesCanciones.regresarEnlaceDeCancion(index);
+    const mensajeCompleto = `${mensaje} \n${cancion}`;
+    console.log(mensajeCompleto);
     client
       .sendTextMessage(
         "5216182276490@s.whatsapp.net",
