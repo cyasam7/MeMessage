@@ -44,7 +44,7 @@ DIA_DE_LA_SEMANA=*
 ## Pasos para uso de la aplicacion
 1. Instalamos las dependencias con ```npm install```
 2. Iniciamos el servidor por primera vez con ```npm run start```
-3. Primeramente se crearan las credenciales, donde se creara un codigo QR que se tendra que Escanear en Wp
+3. Primeramente se crearan las credenciales, donde se creara un codigo QR en la consola donde se tendra que Escanear en Whats app.
 4. Una vez escaneado el codigo el servidor debe reiniciarse, si no, reinciarlo manualmente.
 5. Configurar el archivo .env para mandar mensajer
 
