@@ -33,13 +33,13 @@ DIAS_DEL_MES=*
 MES_DEL_ANIO=*
 DIA_DE_LA_SEMANA=*
 
-Mandar a las 12:00 del dia al numero 51681234567
-NUMERO_ENVIAR_MENSAJE=516181234567 
-MINUTO_DEL_DIA=0
-HORA_DEL_DIA=12
-DIAS_DEL_MES=*
-MES_DEL_ANIO=*
-DIA_DE_LA_SEMANA=*
+Mandar a las 12:00 del dia al numero 51681234567\n
+NUMERO_ENVIAR_MENSAJE=516181234567 \n
+MINUTO_DEL_DIA=0\n
+HORA_DEL_DIA=12\n
+DIAS_DEL_MES=*\n
+MES_DEL_ANIO=*\n
+DIA_DE_LA_SEMANA=*\n
 
 ## Pasos para uso de la aplicacion
 1. Instalamos las dependencias con ```npm install```
