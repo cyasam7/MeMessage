@@ -17,29 +17,29 @@ Dentro del archivo mensajes.js hay una variable donde contiene un arreglo de str
 Si deseas agregar un mensaje o quitar, modificalo dentro de ese array y reinicia la aplicacion.
 
 # Ejemplos
-Mandar en la noche a las 9:30 pm al numero 51681234567
-NUMERO_ENVIAR_MENSAJE=516181234567 
-MINUTO_DEL_DIA=30
-HORA_DEL_DIA=21
-DIAS_DEL_MES=*
-MES_DEL_ANIO=*
-DIA_DE_LA_SEMANA=*
+1. Mandar en la noche a las 9:30 pm al numero 51681234567
+2. NUMERO_ENVIAR_MENSAJE=516181234567 
+3. MINUTO_DEL_DIA=30
+4. HORA_DEL_DIA=21
+5. DIAS_DEL_MES=*
+6. MES_DEL_ANIO=*
+7. DIA_DE_LA_SEMANA=*
 
-Mandar en la mañana a las 9:30 am al numero 51681234567
-NUMERO_ENVIAR_MENSAJE=516181234567 
-MINUTO_DEL_DIA=30
-HORA_DEL_DIA=9
-DIAS_DEL_MES=*
-MES_DEL_ANIO=*
-DIA_DE_LA_SEMANA=*
+1. Mandar en la mañana a las 9:30 am al numero 51681234567
+2. NUMERO_ENVIAR_MENSAJE=516181234567 
+3. MINUTO_DEL_DIA=30
+4. HORA_DEL_DIA=9
+5. DIAS_DEL_MES=*
+6. MES_DEL_ANIO=*
+7. DIA_DE_LA_SEMANA=*
 
-Mandar a las 12:00 del dia al numero 51681234567\n
-NUMERO_ENVIAR_MENSAJE=516181234567 \n
-MINUTO_DEL_DIA=0\n
-HORA_DEL_DIA=12\n
-DIAS_DEL_MES=*\n
-MES_DEL_ANIO=*\n
-DIA_DE_LA_SEMANA=*\n
+1. Mandar a las 12:00 del dia al numero 51681234567
+2. NUMERO_ENVIAR_MENSAJE=516181234567 
+3. MINUTO_DEL_DIA=0
+4. HORA_DEL_DIA=12
+5. DIAS_DEL_MES=*
+6. MES_DEL_ANIO=*
+7. DIA_DE_LA_SEMANA=*
 
 ## Pasos para uso de la aplicacion
 1. Instalamos las dependencias con ```npm install```
